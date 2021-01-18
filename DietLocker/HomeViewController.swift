@@ -6,7 +6,7 @@ import HealthKitUI
 class HomeViewController: UIViewController {
     
     let healthStore = HKHealthStore()
-    //    @IBOutlet weak var activityRingView: HKActivityRingView!
+        @IBOutlet weak var activityRingView: HKActivityRingView!
     
     
     

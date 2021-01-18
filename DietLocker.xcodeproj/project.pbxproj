@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0B3754288008F7E08834F4FC /* Pods_Snapchat_Camera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9016F299267EA8B2351A266 /* Pods_Snapchat_Camera.framework */; };
 		677639D5C16587CDC442606F /* Pods_Snapchat_Camera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5A6CEC7D64B48B77E4858D /* Pods_Snapchat_Camera.framework */; };
+		A68FF44625B4F2F3006CF1D1 /* HealthKitSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68FF44525B4F2F3006CF1D1 /* HealthKitSetupAssistant.swift */; };
+		A68FF44925B4F342006CF1D1 /* ProfileDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68FF44825B4F342006CF1D1 /* ProfileDataStore.swift */; };
 		DAA37F7225B249C4001552A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA37F7125B249C4001552A5 /* GoogleService-Info.plist */; };
 		DAA37F8C25B258A0001552A5 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA37F8B25B258A0001552A5 /* HealthKit.framework */; };
 		FA2DDDB820462CEA00A6FE08 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2DDDB720462CEA00A6FE08 /* StartViewController.swift */; };
@@ -24,16 +26,18 @@
 /* Begin PBXFileReference section */
 		76761B84E30812A56C9DA89A /* Pods-Snapchat Camera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snapchat Camera.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snapchat Camera/Pods-Snapchat Camera.debug.xcconfig"; sourceTree = "<group>"; };
 		7B5A6CEC7D64B48B77E4858D /* Pods_Snapchat_Camera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Snapchat_Camera.framework; path = "../../../../../../../../Desktop/ios-tutorials-master/Snapchat_Camera/Pods/FirebaseCore/Frameworks/Pods_Snapchat_Camera.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A68FF44525B4F2F3006CF1D1 /* HealthKitSetupAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitSetupAssistant.swift; sourceTree = "<group>"; };
+		A68FF44825B4F342006CF1D1 /* ProfileDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDataStore.swift; sourceTree = "<group>"; };
 		A9016F299267EA8B2351A266 /* Pods_Snapchat_Camera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snapchat_Camera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA37F7125B249C4001552A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DAA37F8A25B258A0001552A5 /* DietLocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DietLocker.entitlements; sourceTree = "<group>"; };
 		DAA37F8B25B258A0001552A5 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
-		FA2DDDB720462CEA00A6FE08 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		FA2DDDB920462CFD00A6FE08 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		FA2DDDBB20462D0C00A6FE08 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FA2DDDB720462CEA00A6FE08 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StartViewController.swift; path = ../DietLocker/StartViewController.swift; sourceTree = "<group>"; };
+		FA2DDDB920462CFD00A6FE08 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../DietLocker/LoginViewController.swift; sourceTree = "<group>"; };
+		FA2DDDBB20462D0C00A6FE08 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../DietLocker/SignUpViewController.swift; sourceTree = "<group>"; };
 		FAAAC5B020391F47005BA152 /* DietLocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietLocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAAAC5B320391F47005BA152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAAAC5B520391F47005BA152 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FAAAC5B320391F47005BA152 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../DietLocker/AppDelegate.swift; sourceTree = "<group>"; };
+		FAAAC5B520391F47005BA152 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../DietLocker/HomeViewController.swift; sourceTree = "<group>"; };
 		FAAAC5B820391F48005BA152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAAAC5BA20391F48005BA152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAAAC5BD20391F48005BA152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,7 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				DAA37F8A25B258A0001552A5 /* DietLocker.entitlements */,
-				FAAAC5B220391F47005BA152 /* Snapchat Camera */,
+				FAAAC5B220391F47005BA152 /* DietLocker */,
 				FAAAC5B120391F47005BA152 /* Products */,
 				4A4BE280EEB5519DC67E4741 /* Pods */,
 				007DB1461F5CD9C31FD8ED7D /* Frameworks */,
@@ -93,7 +97,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FAAAC5B220391F47005BA152 /* Snapchat Camera */ = {
+		FAAAC5B220391F47005BA152 /* DietLocker */ = {
 			isa = PBXGroup;
 			children = (
 				FAAAC5B320391F47005BA152 /* AppDelegate.swift */,
@@ -102,12 +106,14 @@
 				FA2DDDB720462CEA00A6FE08 /* StartViewController.swift */,
 				FA2DDDB920462CFD00A6FE08 /* LoginViewController.swift */,
 				FA2DDDBB20462D0C00A6FE08 /* SignUpViewController.swift */,
+				A68FF44525B4F2F3006CF1D1 /* HealthKitSetupAssistant.swift */,
+				A68FF44825B4F342006CF1D1 /* ProfileDataStore.swift */,
 				FAAAC5BA20391F48005BA152 /* Assets.xcassets */,
 				DAA37F7125B249C4001552A5 /* GoogleService-Info.plist */,
 				FAAAC5BC20391F48005BA152 /* LaunchScreen.storyboard */,
 				FAAAC5BF20391F48005BA152 /* Info.plist */,
 			);
-			path = "Snapchat Camera";
+			path = DietLocker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,11 +145,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1230;
 				ORGANIZATIONNAME = "Kishan Patel";
 				TargetAttributes = {
 					FAAAC5AF20391F47005BA152 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1230;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -243,7 +250,9 @@
 				FA2DDDBA20462CFD00A6FE08 /* LoginViewController.swift in Sources */,
 				FA2DDDBC20462D0C00A6FE08 /* SignUpViewController.swift in Sources */,
 				FA2DDDB820462CEA00A6FE08 /* StartViewController.swift in Sources */,
+				A68FF44625B4F2F3006CF1D1 /* HealthKitSetupAssistant.swift in Sources */,
 				FAAAC5B620391F47005BA152 /* HomeViewController.swift in Sources */,
+				A68FF44925B4F342006CF1D1 /* ProfileDataStore.swift in Sources */,
 				FAAAC5B420391F47005BA152 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +293,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -291,8 +301,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -318,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -341,6 +353,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -348,8 +361,10 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -369,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -386,12 +401,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JBL55J92E5;
-				INFOPLIST_FILE = "Snapchat Camera/Info.plist";
+				INFOPLIST_FILE = DietLocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ABventures.DietLocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -405,12 +420,12 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JBL55J92E5;
-				INFOPLIST_FILE = "Snapchat Camera/Info.plist";
+				INFOPLIST_FILE = DietLocker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ABventures.DietLocker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

@@ -9,7 +9,7 @@ class HomeViewController: UIViewController {
     //    @IBOutlet weak var activityRingView: HKActivityRingView!
     
     
-    
+    //hey hey
     
     override func viewDidLoad() {
         super.viewDidLoad()
